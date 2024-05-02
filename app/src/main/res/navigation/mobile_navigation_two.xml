@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Bottom.ui.home.HomeFragmentBottomNavigation"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home_bottom_navigation" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Bottom.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Bottom.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Bottom.ui.profile.ProfileBottomNavigationFragment"
+        android:label="fragment_profile_bottom_navigation"
+        tools:layout="@layout/fragment_profile_bottom_navigation" />
+
+</navigation>

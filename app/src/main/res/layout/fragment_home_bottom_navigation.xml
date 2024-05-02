@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Navigation.Bottom.MyBottomNavigationActivity">
+
+    <TextView
+        android:id="@+id/textview_fragment_home_bottom_navigation"
+        style="@style/TextGeneral"
+        android:text="@string/title_activity_my_bottom_navigation"
+        />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Navigation.FragmentNavigation.HomeFragmentNavigation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/TextGeneral"
+        android:text="@string/hello_blank_fragment_navigation" />
+
+    <Button
+        android:id="@+id/button_category_navigation"
+        style="@style/ButtonGeneral"
+        android:text="@string/to_category"
+        />
+
+    <Button
+        android:id="@+id/button_profile_navigation"
+        style="@style/ButtonGeneral"
+        android:text="@string/to_profile"
+        />
+
+    <Button
+        android:id="@+id/button_to_myappbar"
+        style="@style/ButtonGeneral"
+        android:text="@string/my_app_bar"
+        />
+
+    <Button
+        android:id="@+id/button_mynavigationdrawer"
+        style="@style/ButtonGeneral"
+        android:text="@string/my_navigation_drawer"
+        />
+
+    <Button
+        android:id="@+id/button_mybottomnavigation"
+        style="@style/ButtonGeneral"
+        android:text="@string/title_activity_my_bottom_navigation"
+        />
+
+</LinearLayout>

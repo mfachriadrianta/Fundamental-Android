@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Drawer.ui.home.HomeFragmentNavigationDrawer"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_navigation_drawer" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Drawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Drawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Drawer.ui.cart.CartFragmentNavigation"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart_navigation" />
+
+    for acivity android:id
+    in mobile_navigation must consistent with android:id in activity_main_drawer or other menu item
+
+    <activity
+        android:id="@+id/nav_subway"
+        android:name="com.mfachriadrianta.fundamentalandroid.Navigation.Drawer.ui.SubwayNavigationActivity"
+        android:label="@string/menu_subway"
+        android:layout="@layout/activity_subway_navigation"
+        />
+
+</navigation>
